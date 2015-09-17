@@ -1,249 +1,434 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Document</title>
-
-  <style>
-
-
-
-
-
-
-
-      *{margin:0; padding:0;}
-      ul{list-style: none;}
-      .ir{
-        font-size:0;
-        position:absolute;
-        left:-9999999px;
-        top:-999999px;
-        overflow:hidden;
-        width: 0;
-        height: 0;
-      }
-      fieldset{border:0 none;}
-
-      #topbar{height:40px; border-bottom:1px #a6a6a6 solid; background:#CCC}
-      .wrap{height:40px; width: 982px; background:#EEE;margin:0 auto}
-      #topbar .wrap{line-height:40px; }
-
-      #topbar fieldset{float:right}
-      #topbar fieldset input[type="text"]{
-        line-height:23px;
-        width: 277px;
-        padding:0 10px;
-        margin-right:11px;
-        vertical-align: middle;
-        border:0 none;
-        border-left:1px #666 solid;
-        border-top:1px #666 solid;
-      }
-
-      #topbar fieldset input[type="submit"]{
-        height:47px;
-        width: 107px;
-        border:1px #000 solid;
-        border-top:0 none;
-        vertical-align: top;
-      }
-
-      #header{
-        height: 168px;
-        border-bottom:5px #12151f solid;
-      }
-    #header{position:relative;}
-    #header .wrap{height:100%}
-    #header .lnb{ position:absolute;top:127px; left:0; width:100%; margin-top:4px;}
-    #header .lnb>ul{width:982px; margin:0 auto;}
-    #header .lnb>ul>li{float:left; margin-left:40px; line-height:42px;}
-    #header .lnb>ul>li:first-child{margin-left:0;}
-    #header .lnb>ul>li>div{width:100%; position:absolute; left:0; height:40px; background-color:#00b2c7}
-    #header .lnb>ul>li>div>ul{width:980px; margin:0 auto;}
-    #header .lnb>ul>li>div>ul>li{float:left; margin-left:50px;}
-    #header .lnb>ul>li>div>ul>li:hover ul{display: block}
-    #header .lnb>ul>li>div>ul>li>ul{border:1px #F00 solid; height:40px; position:absolute; display: none}
-    #header .lnb>ul>li>div>ul>li>ul>li{float:left; margin:0 30px;}
-
-  #intro{border:1px #F00 solid; height:300px; margin-top:40px;}
-  #intro .wrap{border:1px #F00 solid; height:100%;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  </style>
-
+    <meta charset="UTF-8">
+    <title>Cube-Bridge</title>
+    <base href="file:///D:/uiux_kimminchul/person_project/" target="_self" />
+    <!-- base 파일경로 디폴트 설정 -->
+    <link rel="stylesheet" href="lib/css/cubebridge_master.css">
 </head>
 <body>
-  <div id="topbar">
-      <div class="wrap">
-          <fieldset>
-            <legend class="ir">검색</legend>
-              <label for="search"></label>
-              <input type="text" id="search"/><input type="submit"  value="검색"/>
-          <fieldset>
-      </div>
-  </div>
 
-  <div id="header">
-    <div class="wrap">
-      <h1><a href="/">로고</a></h1>
-      <div></div>
-      <div class="lnb">
-        <ul>
-          <li>cotnet menu</li>
-          <li>cotnet menu</li>
-          <li>cotnet menu</li>
-          <li>cotnet menu</li>
-          <li><a href="">cotnet menu</a>
-            <div>
-              <ul>
-                <li><a href="">depth2</a>
-                    <ul>
-                      <li><a href="">depth3</a></li>
-                      <li><a href="">depth3</a></li>
-                      <li><a href="">depth3</a></li>
-                    </ul>
+<div class="topbar">
+        <div class="ct_wrap">
+            <fieldset>
+                <legend class="hide">검색</legend>
+                <label for="search" class="hide">검색어입력</label>
+                <input type="text" id="search"/>
+                <input type="submit" value="검색"/>
+            </fieldset>
+    </div>
+</div>
+
+<div class="header">
+    <div class="ct_wrap">
+
+        <!-- 로고 -->
+        <h1><a href="/"><img src="lib/images/cubebirdge/h1_cubegridge_logo.png" alt="cubebirdge"/></a></h1>
+
+        <!-- 프로모션 -->
+        <div class="promotion">
+            <ul class="listNone">
+                <li class="ative">
+                    <a href=""><span class="hide">셈플 첫번째 이벤트 입니다. 해당 내용을 보시려면 텝을 누르세요</span></a>
+                    <div>
+                        <img src="lib/images/cubebirdge/@promotion_event_1.jpg" alt="goodfood" />
+                        <div class="tx-descript">
+                            <strong>Event Area</strong>
+                            <p>예쁜 아이콘과 함께<br /> 이곳에 이벤트를 넣는것은<br /> 어떨까요?! <a href="" class="link_point">View</a></p>
+                        </div>
+                    </div>
                 </li>
-                <li><a href="">submenu</a></li>
-                <li><a href="">submenu</a></li>
-                <li><a href="">submenu</a></li>
-              </ul>
+                <li>
+                    <a href=""><span class="hide">셈플 두번째 이벤트 입니다. 해당 내용을 보시려면 텝을 누르세요</span></a>
+                    <div>
+                        <img src="lib/images/cubebirdge/@promotion_event_1.jpg" alt="goodfood" />
+                        <div class="tx-descript">
+                            <strong>Event Area</strong>
+                            <p>예쁜 아이콘과 함께<br /> 이곳에 이벤트를 넣는것은<br /> 어떨까요?! <a href="" class="link_point">View</a></p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href=""><span class="hide">셈플 세번째 이벤트 입니다. 해당 내용을 보시려면 텝을 누르세요</span></a>
+                    <div>
+                        <img src="lib/images/cubebirdge/@promotion_event_1.jpg" alt="goodfood" />
+                        <div class="tx-descript">
+                            <strong>Event Area</strong>
+                            <p>예쁜 아이콘과 함께<br /> 이곳에 이벤트를 넣는것은<br /> 어떨까요?! <a href="" class="link_point">View</a></p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href=""><span class="hide">셈플 네번째 이벤트 입니다. 해당 내용을 보시려면 텝을 누르세요</span></a>
+                    <div>
+                        <img src="lib/images/cubebirdge/@promotion_event_1.jpg" alt="goodfood" />
+                        <div class="tx-descript">
+                            <strong>Event Area</strong>
+                            <p>예쁜 아이콘과 함께<br /> 이곳에 이벤트를 넣는것은<br /> 어떨까요?! <a href="" class="link_point">View</a></p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="lnb">
+            <ul class="listNone">
+                <li><a href="" class="creators"><span>creators</span></a></li>
+                <li><a href="" class="portfolioBox"><span>portfolioBox</span></a></li>
+                <li><a href="" class="productPlace"><span>productPlace</span></a></li>
+                <li><a href="" class="event"><span>event</span></a></li>
+                <li><a href="" class="webzine"><span>webzine</span></a>
+                    <div>
+                        <ul class="listNone ct_wrap">
+                            <li><a href="#">Cover Story</a></li>
+                            <li><a href="#">Creators</a></li>
+                            <li><a href="#">공연&amp;행사</a></li>
+                            <li><a href="#">Talent Association</a>
+                                <div class="ts">
+                                    <span></span>
+                                    <ul class="listNone">
+                                        <li><a href="">Best portfolio</a></li>
+                                        <li><a href="">Hot isuss</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+
+<div class="intro">
+    <div class="notice">
+        <!-- notice 내용 생략-->
+    </div>
+
+    <ul class="listNone">
+        <li class="on">
+            <a href=""><span></span></a>
+            <div><img src="lib/images/cubebirdge/@intro.jpg" alt="" /></div>
+        </li>
+        <li>
+            <a href=""><span></span></a>
+            <div><img src="lib/images/cubebirdge/@intro.jpg" alt="" /></div>
+        </li>
+        <li>
+            <a href=""><span></span></a>
+            <div><img src="lib/images/cubebirdge/@intro.jpg" alt="" /></div>
+        </li>
+    </ul>
+
+
+    <div class="ct_wrap">
+
+    </div>
+</div>
+
+<div id="main">
+    <div class="graysection">
+        <div class="ct_wrap content" >
+            <div class="content-list">
+                <div class="creators-list">
+                    <div class="hgroup">
+                        <h2><img src="lib/images/cubebirdge/h2_creators_cs.png" alt=""></h2>
+                        <a href="">MORE</a>
+                    </div>
+
+                    <div class="type1_list">
+
+                        <ul class="listNone">
+                            <li>
+                                <div><img src="lib/images/cubebirdge/@cs_thumb1.png" alt="" /></div>
+                                <p>
+                                    <strong>[Fatdoo]</strong>
+                                    <span>사랑은 음악을 타고 총총<span>
+                                </p>
+                            </li>
+                            <li>
+                                <div><img src="lib/images/cubebirdge/@cs_thumb2.png" alt="" /></div>
+                                <p>
+                                    <strong>[Fatdoo]</strong>
+                                    <span>사랑은 음악을 타고 총총<span>
+                                </p>
+                            </li>
+                            <li>
+                                <div><img src="lib/images/cubebirdge/@cs_thumb3.png" alt="" /></div>
+                                <p>
+                                    <strong>[Fatdoo]</strong>
+                                    <span>사랑은 음악을 타고 총총<span>
+                                </p>
+                            </li>
+                            <li>
+                                <div><img src="lib/images/cubebirdge/@cs_thumb4.png" alt="" /></div>
+                                <p>
+                                    <strong>[Fatdoo]</strong>
+                                    <span>사랑은 음악을 타고 총총우헤헤헤헤<span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="isuss-list">
+                    <div class="hgroup">
+                        <h2><img src="lib/images/cubebirdge/h2_hotissues.png" alt=""></h2>
+                        <a href="">MORE</a>
+                    </div>
+
+                    <div class="type1_list cleartext">
+
+                        <ul class="listNone">
+                            <li>
+                                <div><img src="lib/images/cubebirdge/@cs_thumb1.png" alt="" /></div>
+                                <p>
+                                    <span>사랑은 음악을 타고 총총<br />사랑은 음악을 타<span>
+                                </p>
+                            </li>
+                            <li>
+                                <div><img src="lib/images/cubebirdge/@cs_thumb2.png" alt="" /></div>
+                                <p>
+                                    <span>사랑은 음악을 타고 총총<br />사랑은 음악을 타<span>
+                                </p>
+                            </li>
+                            <li>
+                                <div><img src="lib/images/cubebirdge/@cs_thumb3.png" alt="" /></div>
+                                <p>
+                                    <span>사랑은 음악을 타고 총총<br />사랑은 음악을 타<span>
+                                </p>
+                            </li>
+                            <li>
+                                <div><img src="lib/images/cubebirdge/@cs_thumb4.png" alt="" /></div>
+                                <p>
+                                    <span>사랑은 음악을 타고 총총<br />사랑은 음악을 타<span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-          </li>
+
+            <div class="multi-view">
+
+                <div class="video">
+                    <div class="hgroup">
+                        <h2><img src="lib/images/cubebirdge/h2_vd.png" alt=""></h2>
+                        <a href="">MORE</a>
+                    </div>
+                    <iframe width="278" height="205" src="https://www.youtube.com/embed/brVfHQjorT8" frameborder="0" allowfullscreen></iframe>
+                    <p>
+                        <strong>SEOTAIJI - HUMAN DREAM </strong>
+                        <span>"SEOTAIJI VERSION" </span>
+                    </p>
+                </div>
+
+                <div class="bunch-list">
+                    <button class="next">다음</button>
+                    <button class="prev">이전</button>
+                    <div>
+                        <ul class="listNone">
+                            <li>
+                                <a href="#"><img src="" alt=""></a>
+                                <p>text<br />text</p>
+                            </li>
+
+                            <li>
+                                <a href="#"><img src="" alt=""></a>
+                                <p>text<br />text</p>
+                            </li>
+
+                            <li>
+                                <a href="#"><img src="" alt=""></a>
+                                <p>text<br />text</p>
+                            </li>
+
+                            <li>
+                                <a href="#"><img src="" alt=""></a>
+                                <p>text<br />text</p>
+                            </li>
+
+                            <li>
+                                <a href="#"><img src="" alt=""></a>
+                                <p>text<br />text</p>
+                            </li>
+
+                            <li>
+                                <a href="#"><img src="" alt=""></a>
+                                <p>text<br />text</p>
+                            </li>
+
+                            <li>
+                                <a href="#"><img src="" alt=""></a>
+                                <p>text<br />text</p>
+                            </li>
+
+                            <li>
+                                <a href="#"><img src="" alt=""></a>
+                                <p>text<br />text</p>
+                            </li>
+
+                            <li>
+                                <a href="#"><img src="" alt=""></a>
+                                <p>text<br />text</p>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="whitesection">
+        <div class="ct_wrap content">
+            <div class="slidebanner">
+                <div class="hgroup">
+                    <h2><img src="lib/images/cubebirdge/h3_portfolio.png" alt=""></h2>
+                    <a href="">MORE</a>
+                </div>
+
+                <div class="banner">
+                    <button class="next">다음</button>
+                    <button class="prev">이전</button>
+                    <ul class="listNone">
+                        <li>
+                            <a href="#"><img src="lib/images/cubebirdge/@portfolio_sampleimg.png" alt="" /></a>
+                            <p>text</p>
+                        </li>
+                        <li>
+                            <a href="#"><img src="lib/images/cubebirdge/@portfolio_sampleimg.png" alt="" /></a>
+                            <p>text</p>
+                        </li>
+                        <li>
+                            <a href="#"><img src="lib/images/cubebirdge/@portfolio_sampleimg.png" alt="" /></a>
+                            <p>text</p>
+                        </li>
+                        <li>
+                            <a href="#"><img src="lib/images/cubebirdge/@portfolio_sampleimg.png" alt="" /></a>
+                            <p>text</p>
+                        </li>
+                        <li>
+                            <a href="#"><img src="lib/images/cubebirdge/@portfolio_sampleimg.png" alt="" /></a>
+                            <p>text</p>
+                        </li>
+                        <li>
+                            <a href="#"><img src="lib/images/cubebirdge/@portfolio_sampleimg.png" alt="" /></a>
+                            <p>text</p>
+                        </li>
+                        <li>
+                            <a href="#"><img src="lib/images/cubebirdge/@portfolio_sampleimg.png" alt="" /></a>
+                            <p>text</p>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="eventinfo">
+                <div class="hgroup">
+                    <h2><img src="lib/images/cubebirdge/h2_eventinfo.png" alt=""></h2>
+                    <a href="">MORE</a>
+                </div>
+
+                <div class="type2_list">
+
+                    <ul class="listNone">
+                        <li>
+                            <div><img src="lib/images/cubebirdge/@event_thumb2.png" alt=""></div>
+                            <p>
+                                <strong>2013 유나이티드 큐브</strong>
+                                <small>잠실실내체육관</small>
+                                <span>2013/02/14</span>
+                            </p>
+                        </li>
+                        <li>
+                            <div><img src="lib/images/cubebirdge/@event_thumb3.png" alt=""></div>
+                            <p>
+                                <strong>2013 유나이티드 큐브</strong>
+                                <small>잠실실내체육관</small>
+                                <span>2013/02/14</span>
+                            </p>
+                        </li>
+                        <li>
+                            <div><img src="lib/images/cubebirdge/@event_thumb4.png" alt=""></div>
+                            <p>
+                                <strong>2013 유나이티드 큐브</strong>
+                                <small>잠실실내체육관</small>
+                                <span>2013/02/14</span>
+                            </p>
+                        </li>
+                        <li>
+                            <div><img src="lib/images/cubebirdge/@event_thumb5.png" alt=""></div>
+                            <p>
+                                <strong>2013 유나이티드 큐브</strong>
+                                <small>잠실실내체육관</small>
+                                <span>2013/02/14</span>
+                            </p>
+                        </li>
+                        <li>
+                            <div><img src="lib/images/cubebirdge/@event_thumb6.png" alt=""></div>
+                            <p>
+                                <strong>2013 유나이티드 큐브</strong>
+                                <small>잠실실내체육관</small>
+                                <span>2013/02/14</span>
+                            </p>
+                        </li>
+                        <li>
+                            <div><img src="lib/images/cubebirdge/@event_thumb7.png" alt=""></div>
+                            <p>
+                                <strong>2013 유나이티드 큐브</strong>
+                                <small>잠실실내체육관</small>
+                                <span>2013/02/14</span>
+                            </p>
+                        </li>
+                        <li>
+                            <div><img src="lib/images/cubebirdge/@event_thumb8.png" alt=""></div>
+                            <p>
+                                <strong>2013 유나이티드 큐브</strong>
+                                <small>잠실실내체육관</small>
+                                <span>2013/02/14</span>
+                            </p>
+                        </li>
+                        <li>
+                            <div><img src="lib/images/cubebirdge/@event_thumb.png" alt=""></div>
+                            <p>
+                                <strong>2013 유나이티드 큐브</strong>
+                                <small>잠실실내체육관</small>
+                                <span>2013/02/14</span>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="ct_wrap">
+        <strong>Talent Association</strong><span>Korean Culture를 만들어 가는 것은 여러분입니다. 다양한 분야의 단체들이 한국의 문화를 후원합니다</span>
+        <div class="partner_bunch">
+
+        </div>
+    </div>
+    <address>
+        <ul class="listNone">
+            <li><a href="#"><span>회사소개</span></a></li>
+            <li><a href="#"><span>광고</span></a></li>
+            <li><a href="#"><span>검색등록</span></a></li>
+            <li><a href="#"><span>제휴안내</span></a></li>
+            <li><a href="#"><span>이용약관</span></a></li>
+            <li><a href="#"><span>개인정보취급방침</span></a></li>
+            <li><a href="#"><span>고객센터</span></a></li>
+            <li><a href="#"><span>CubeBirdge</span></a></li>
+            <li><a href="#"><span>SiteMap</span></a></li>
+            <li><a href="#"><span>공지사항</span></a></li>
         </ul>
-      </div>
-    </div>
-  </div>
-  <div id="intro">
-    <div class="wrap">
-
-      <div class="descript"></div>
-    </div>
-
-  </div>
-
-
-
-
-
-
-
-
-
+        <span class="copy">Copyright &copy; Ocean’s People. All Rights Reserved.</span>
+    </address>
+</div>
 
 </body>
 </html>
