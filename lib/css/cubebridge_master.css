@@ -20,16 +20,32 @@ button,input[type="submit"]{cursor: pointer}
 a{text-decoration: none;}
 img{border: 0 none;}
 
+/*color font*/
+.base{color:#555555}
+.strcolor{color:#f9789f}
+
+
 /*option*/
 .hide{font-size:0; width:0; height:0px; position: absolute; left:-9999px; top:-9999px;}
 .listNone{list-style: none;}
 .ct_wrap{margin:0 auto; width:980px;}
 .link_point{text-decoration: underline; color:#77c3cf; padding:0 10px; font-weight:bold}
-
+.icon-hart{background:url("../images/cubebirdge/icon-hart.png") no-repeat; display:inline-block; *display:inline; *zoom:1; text-indent: -9999px; width:9px; height:8px; vertical-align: middle; margin:0 4px}
 
 .select_style{border:1px #F00 solid;  height:25px; border:1px #F00 solid; background:#2a3041; color:#FFF; line-height:25px; }
 .select_style ul{border:1px #F00 solid; background:#2a3041; display:none;}
 .select_style .fix_option{margin:0 10px; background: url("../images/cubebirdge/icon_donw_arrow.png") no-repeat right center; white-space: nowrap; overflow:hidden; text-overflow:ellipsis; padding-right: 15px}
+
+.webzine-list li{padding:15px 0; border-top:1px #dedede solid}
+.webzine-list li:first-child{border-top:none; padding-top:0}
+.webzine-list li div.thumb-images{width: 175px; height: 135px; overflow:hidden; float:left; margin-right:22px}
+.webzine-list li .content-view strong{font-size:19px; padding:16px 0 9px; display:block;}
+.webzine-list li .content-view p{font-size:12px; line-height: 17px; height:51px; overflow:hidden}
+.webzine-list li dl{margin-top:11px; height:27px; line-height:27px; background-color: #eee; display: inline-block; *display: inline; *zoom:1; padding:0 14px 0 12px}
+.webzine-list li dl dd{float:left; padding:0 13px; background:url("../images/cubebirdge/hr_height_line.png") no-repeat 0  center; }
+.webzine-list li dl dt:first-child+dd{background: none;}
+
+
 
 /*layout*/
 
