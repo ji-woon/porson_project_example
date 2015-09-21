@@ -154,6 +154,13 @@ hover 선택자를 이용하여 백그라운드 교체함
 .graysection{background:#e7e7e7; padding:22px 0; background:#e7e7e7 url("../images/cubebirdge/bgl-bottom-line.png") repeat-x bottom}
 .whitesection{padding:22px 0;}
 
+
+/*title*/
+.h2_subtitle{margin-top:34px; background: #c2e254; heighgt:75px}
+.h2_subtitle .ct_wrap{line-height: 75px; }
+.h2_subtitle .ct_wrap img{vertical-align: middle;}
+
+
 #main .graysection .content{ height:400px}
 
 #main .content-list{width:684px; height:400px; float:left}
