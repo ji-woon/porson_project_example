@@ -45,6 +45,13 @@ img{border: 0 none;}
 .webzine-list li dl dd{float:left; padding:0 13px; background:url("../images/cubebirdge/hr_height_line.png") no-repeat 0  center; }
 .webzine-list li dl dt:first-child+dd{background: none;}
 
+.paging{text-align: center; margin:15px 0 47px;}
+.paging a{color:#999; border:1px #dedede solid; display:inline-block; *display: inline; *zoom:1; width:17px; height:17px; vertical-align: top; line-height:17px}
+.paging a.on{color:#F00; border-color:#F00; font-weight:bold}
+.paging a span{vertical-align: middle; }
+.paging .leftbtn,
+.paging .rightbtn{text-indent: -9999px;}
+
 
 
 /*layout*/
@@ -180,6 +187,7 @@ hover 선택자를 이용하여 백그라운드 교체함
 .h2_subtitle .ct_wrap{line-height: 75px; }
 .h2_subtitle .ct_wrap img{vertical-align: middle;}
 
+.sub_layout{overflow: hidden}
 .sub_layout.depth2 .section{width:750px; min-height:600px; float:left;}
 .sub_layout.depth2 .aside{border-width:0 1px; border-style:solid; border-color:#dedede; min-height:600px;margin-left:750px;}
 
