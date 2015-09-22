@@ -8,6 +8,36 @@
     <!-- <base href="http://windows5555.dothome.co.kr/" target="_self" /> -->
     <!-- base 파일경로 디폴트 설정 -->
     <link rel="stylesheet" href="lib/css/cubebridge_master.css">
+    <script type="text/javascript" src="lib/js/jquery.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+
+            $('.icon-grid').click(function(){
+                $('.view-list').removeClass().addClass('webzine-list');
+
+                return false;
+            });
+
+            $('.icon-list').click(function(){
+
+                $('.webzine-list').removeClass().addClass('view-list');
+
+                return false;
+            });
+
+            $('.fix_option').click(function(){
+                $(this).next('ul').slideToggle();
+
+            })
+
+
+
+        });
+    </script>
+
+
+
 </head>
 <body>
 

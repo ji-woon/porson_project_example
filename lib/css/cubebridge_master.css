@@ -33,7 +33,7 @@ img{border: 0 none;}
 .icon-hart{background:url("../images/cubebirdge/icon-hart.png") no-repeat; display:inline-block; *display:inline; *zoom:1; text-indent: -9999px; width:9px; height:8px; vertical-align: middle; margin:0 4px}
 
 .select_style{  height:25px;  background:#2a3041; color:#FFF; line-height:25px; }
-.select_style ul{ background:#2a3041; display:none;}
+.select_style ul{ background:#2a3041; display:none; position:relative; z-index: 100}
 .select_style .fix_option{margin:0 10px; background: url("../images/cubebirdge/icon_donw_arrow.png") no-repeat right center; white-space: nowrap; overflow:hidden; text-overflow:ellipsis; padding-right: 15px}
 
 .webzine-list li{padding:15px 0; border-top:1px #dedede solid}
