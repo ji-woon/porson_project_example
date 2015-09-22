@@ -32,8 +32,8 @@ img{border: 0 none;}
 .link_point{text-decoration: underline; color:#77c3cf; padding:0 10px; font-weight:bold}
 .icon-hart{background:url("../images/cubebirdge/icon-hart.png") no-repeat; display:inline-block; *display:inline; *zoom:1; text-indent: -9999px; width:9px; height:8px; vertical-align: middle; margin:0 4px}
 
-.select_style{border:1px #F00 solid;  height:25px; border:1px #F00 solid; background:#2a3041; color:#FFF; line-height:25px; }
-.select_style ul{border:1px #F00 solid; background:#2a3041; display:none;}
+.select_style{  height:25px;  background:#2a3041; color:#FFF; line-height:25px; }
+.select_style ul{ background:#2a3041; display:none;}
 .select_style .fix_option{margin:0 10px; background: url("../images/cubebirdge/icon_donw_arrow.png") no-repeat right center; white-space: nowrap; overflow:hidden; text-overflow:ellipsis; padding-right: 15px}
 
 .webzine-list li{padding:15px 0; border-top:1px #dedede solid}
@@ -44,6 +44,19 @@ img{border: 0 none;}
 .webzine-list li dl{margin-top:11px; height:27px; line-height:27px; background-color: #eee; display: inline-block; *display: inline; *zoom:1; padding:0 14px 0 12px}
 .webzine-list li dl dd{float:left; padding:0 13px; background:url("../images/cubebirdge/hr_height_line.png") no-repeat 0  center; }
 .webzine-list li dl dt:first-child+dd{background: none;}
+
+.view-list{overflow:hidden}
+.view-list li .thumb-images{height:148px; overflow:hidden }
+.view-list li .thumb-images img{width:auto; height:100%; margin-left:-4.857142857142857%}
+.view-list li {width:175px; height:210px; float:left; margin-right:10px; margin-bottom:10px }
+.view-list li p{display:none}
+.view-list li .content-view{ position:relative; background: #494f65; color:#FFF; font-size:11px; line-height:14px; padding:4px 10px; top:25px;}
+.view-list li .infomatino{padding:0 10px; position:relative; background-color: #13151f; color:#FFF; height:25px; line-height:25px; top:-36px}
+.view-list li .infomatino .date{float:left}
+.view-list li .infomatino .writer{float:right}
+.view-list li .vlist{display:none;}
+.view-list li .slist{display:block}
+
 
 .paging{text-align: center; margin:15px 0 47px;}
 .paging a{color:#999; border:1px #dedede solid; display:inline-block; *display: inline; *zoom:1; width:17px; height:17px; vertical-align: top; line-height:17px}
@@ -198,9 +211,10 @@ hover 선택자를 이용하여 백그라운드 교체함
 .sub_layout .section .headding .headSearch input[type="text"]{line-height:28px; border:1px #dedede solid; height:28px; width: 230px; padding: 0 10px; color:#666}
 .sub_layout .section .headding .headSearch input[type="submit"]{width: 67px;height: 32px; border:0 none; text-indent: -9999px; background-image:url(../images/cubebirdge/sub_page_btn_search.png);}
 
-#cover_story .section .list-option{height:60px; border:1px #F00 solid; line-height:60px;}
+#cover_story .section .list-option{height:60px;  line-height:60px;}
 #cover_story .section .select_style {float:left; margin-top:15px;}
 #cover_story .section .list-type{float:right}
+#cover_story .section .list-type a{padding-right:10px;}
 
 #cover_story .section .list-type a{color:#12151f}
 #cover_story .section .list-type a.ative{color:#00b2c7}
